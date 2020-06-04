@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd9c314-a342-4655-802c-5a4cdf0f7164" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-client/src/main/java/itc/walmart/poc/kafkaclient/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-client/src/main/java/itc/walmart/poc/kafkaclient/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-client/src/main/java/itc/walmart/poc/kafkaclient/config/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-client/src/main/java/itc/walmart/poc/kafkaclient/config/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +37,9 @@
   </component>
   <component name="ProjectId" id="1clGT6VLIOcupoqth1bTKW58tmU" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

@@ -10,8 +10,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class Producer {
     private static final Logger logger = LoggerFactory.getLogger(Producer.class);
-    @Value("${kafka.topic.name}")
-    private String topic;
+
+    @Autowired
+    MyProperties myProperties;
+
+    private String topic = myProperties.getTopic();
 
     @Autowired
     private KafkaTemplate<String,String> kafkaTemplate;
