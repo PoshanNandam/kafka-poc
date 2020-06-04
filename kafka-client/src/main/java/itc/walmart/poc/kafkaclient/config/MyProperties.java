@@ -14,8 +14,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConfigurationProperties(prefix = "kafka")
 public class MyProperties {
+
     private String topic;
     private String group;
 
-
+    public MyProperties(String topic, String group) {
+        this.topic = topic;
+        this.group = group;
+    }
 }

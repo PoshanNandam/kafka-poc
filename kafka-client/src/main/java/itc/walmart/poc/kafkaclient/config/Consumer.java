@@ -13,27 +13,20 @@ import java.util.UUID;
 
 @Service
 public class Consumer {
+    private final Logger logger = LoggerFactory.getLogger(Consumer.class);
 
+    @Autowired
     CassandraUserRepository cassandraRepository;
 
     @Autowired
     MyProperties myProperties;
 
-    @Autowired
-    public Consumer(CassandraUserRepository cassandraRepository) {
-        this.cassandraRepository = cassandraRepository;
-    }
-
-    private final Logger logger = LoggerFactory.getLogger(Consumer.class);
-
-    private String topic = myProperties.getTopic();
-    private String gropuId = myProperties.getGroup();
-
-    @KafkaListener(topics = "#{topic.provideName()}" , groupId = "#{gropuId.provideName()}")
+    @KafkaListener(topics = "#{myProperties.getTopic()}" , groupId = "#{myProperties.getGroup()}")
     public void consume(String message){
         try {
-            logger.info(String.format("$$ -> Consumed Message -> %s",message));
-            cassandraRepository.save(new User(UUID.randomUUID().toString(),message,new Date()));
+            logger.info(String.format("Consumed Message -> %s",message));
+            User user = cassandraRepository.save(new User(UUID.randomUUID().toString(),message,new Date()));
+            logger.info(String.format("Successfully save the data to Cassandra DB -> %s",user));
         }catch (NullPointerException e){
             logger.error("Recieved a null string from kafka topic ", e);
         }

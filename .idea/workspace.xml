@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebd9c314-a342-4655-802c-5a4cdf0f7164" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+    <list default="true" id="c6b292a3-cf6c-4687-9b4e-82b41f29d9e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-client/src/main/java/itc/walmart/poc/kafkaclient/config/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-client/src/main/java/itc/walmart/poc/kafkaclient/config/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-client/src/main/java/itc/walmart/poc/kafkaclient/config/MyProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-client/src/main/java/itc/walmart/poc/kafkaclient/config/MyProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-server/src/main/java/itc/walmart/poc/kafkaserver/KafkaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-server/src/main/java/itc/walmart/poc/kafkaserver/KafkaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-server/src/main/java/itc/walmart/poc/kafkaserver/config/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-server/src/main/java/itc/walmart/poc/kafkaserver/config/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,29 +19,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1clGT6VLIOcupoqth1bTKW58tmU" />
+  <component name="ProjectId" id="1crZYfiItLIzPkfzlIWVC4LK8a3" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,11 +77,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ebd9c314-a342-4655-802c-5a4cdf0f7164" name="Default Changelist" comment="" />
-      <created>1591095793737</created>
+      <changelist id="c6b292a3-cf6c-4687-9b4e-82b41f29d9e3" name="Default Changelist" comment="" />
+      <created>1591288721848</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591095793737</updated>
+      <updated>1591288721848</updated>
     </task>
     <servers />
   </component>
@@ -105,9 +90,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
